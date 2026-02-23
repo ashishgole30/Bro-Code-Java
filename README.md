@@ -1,7 +1,7 @@
 # Java-Bro-Code
 ![Java](https://1000logos.net/wp-content/uploads/2020/09/Java-Logo-640x400.png)
 <br>
-This is A Repository for Java Bro Code 12 Hour Youtube Tutorial.
+This is a Repository for Java Bro Code 12 Hour Youtube Tutorial.
 <br>
 Programming Language : Java
 <br>
