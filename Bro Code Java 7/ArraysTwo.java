@@ -3,10 +3,10 @@ import java.util.Arrays;
 public class ArraysTwo {
     public static void main(String[] args) {
 
-        // 1. Length of an Array
+        // 1. Length of an Array .length
         // 2. Printing all the elements in an array
         // 3. Enhanced for loop (for-each loop)
-        // 4. Sorting an array
+        // 4. Sorting an array alphabetically .sort()
         // 5. Fill method
 
         // 1. Length of an Array

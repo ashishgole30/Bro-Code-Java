@@ -6,25 +6,25 @@ public class ArraysOne {
         // 3. Printing an array gives us a memory address
         // 4. Primitive data type vs Reference data type
         // 5. Accessing an element in an array using index number
-        // 6.Prining an element that does not exist gives us an error
+        // 6. Prining an element that does not exist gives us an error
         // 7. Changing value at a given index number in array
 
         // 1.
         // Array = a collection of values of the same data type
         // Think of it as a variable that can store more than 1 value
 
+        // 2.
         // Syntax for creating an array
         // dataType[] arrayName = {value1, value2, value3, ...};
 
-        // 2.
+        // 3. if we print this we will get a memory address
+        // Since Arrays fall into the category of Reference Data Type
+        // The memory address is the location in the computer's memory where the array
+        // is stored
         String[] fruitOne = { "Apple", "Orange", "Banana", " Coconut" };
         System.out.println(fruitOne);
         System.out.println("-----------------------------");
 
-        // if we print this we will get a memory address
-        // Arrays fall into the category of Reference Data Type
-
-        // 3.
         // Primitive Data type
         // 1. int
         // 2. double
