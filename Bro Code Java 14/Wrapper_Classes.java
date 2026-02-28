@@ -45,5 +45,36 @@ public class Wrapper_Classes {
         String five = one + two + three + four;
         // All One Long String
         System.out.println(five);
+
+        // Converting String into Primitive Data Type
+        // Another useful utility method of wrapper class
+        // Parsing
+
+        int intnum = Integer.parseInt("123");
+        double doublenum = Double.parseDouble("3.14");
+        // characters do not have a parse method
+        char charc = "Pizza".charAt(0);
+        boolean boold = Boolean.parseBoolean("true");
+
+        // String result = intnum + doublenum + charc + boold;
+        // This doesnt work because we are mixing and matching
+        // different data types
+
+        char letterone = 'b';
+        char lettertwo = '$';
+        // we can check if our letter is actually a letter
+        // accessing Character Wrapper Class and call .isLetter Method
+        // Outputs a boolean : true/false
+        System.out.println(Character.isLetter(letterone));
+        System.out.println(Character.isLetter(lettertwo));
+
+        char letterthree = 'b';
+        char letterfour = 'B';
+        // we can check if our letter is Uppercase or not
+        // accessing Character Wrapper Class and call .isUpperCase Method
+        // Outputs a boolean : true/false
+        System.out.println(Character.isLetter(letterthree));
+        System.out.println(Character.isLetter(letterfour));
+
     }
 }
