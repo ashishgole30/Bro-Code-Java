@@ -42,7 +42,6 @@ public class HangManGame {
             System.out.print("Word: ");
             for (char c : wordState) {
                 System.out.print(c + " ");
-
             }
             System.out.println();
             System.out.print("Guess a letter:");
