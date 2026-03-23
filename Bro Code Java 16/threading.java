@@ -12,7 +12,7 @@ public class threading {
 
         Scanner scanner = new Scanner(System.in);
 
-        MyRunnable myrunnable = new MyRunnable();
+        MyRunnableOne myrunnable = new MyRunnableOne();
 
         Thread thread = new Thread(myrunnable);
         thread.setDaemon(true);
